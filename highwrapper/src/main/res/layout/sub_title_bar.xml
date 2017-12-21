@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="224dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true">
+
+            <android.support.design.widget.TabItem
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="hello1"/>
+
+            <android.support.design.widget.TabItem
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="hello2"/>
+
+            <android.support.design.widget.TabItem
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="hello3"/>
+        </android.support.design.widget.TabLayout>
+
+        <ImageView
+            android:id="@+id/top_filter_menu"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="7dp"
+            android:layout_marginEnd="0dp"
+            android:scaleType="center"
+            android:src="@drawable/ic_recommend_filter"
+            />
+    </RelativeLayout>
+</layout>

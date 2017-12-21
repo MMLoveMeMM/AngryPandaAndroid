@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.panda.org.mediumwrapper">
+
+    <application>
+        <activity android:name=".MediumActivity" />
+        <activity android:name=".lifecycle.BaseActivity" />
+        <activity android:name=".lifecycle.LifeRecyleActivity"></activity>
+    </application>
+
+</manifest>
