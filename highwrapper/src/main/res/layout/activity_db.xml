@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="insert" />
+
+    <Button
+        android:id="@+id/query"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="query" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="update" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="delete" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/inserti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="insert_i" />
+
+        <Button
+            android:id="@+id/queryi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="query_i" />
+
+        <Button
+            android:id="@+id/updatei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="update_i" />
+
+        <Button
+            android:id="@+id/deletei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="delete_i" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/insertv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="insert_v" />
+
+        <Button
+            android:id="@+id/queryv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="query_v" />
+
+        <Button
+            android:id="@+id/updatev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="update_v" />
+
+        <Button
+            android:id="@+id/deletev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="delete_v" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/querymu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="muhu query" />
+
+    </LinearLayout>
+
+</LinearLayout>

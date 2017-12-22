@@ -1,10 +1,9 @@
-package com.panda.org.highwrapper.ui.login;
+package com.panda.org.highwrapper.ui.app.login;
 
-import android.app.Activity;
 import android.os.Bundle;
 
 import com.panda.org.highwrapper.R;
-import com.panda.org.highwrapper.ui.BaseActivity;
+import com.panda.org.highwrapper.ui.app.base.BaseActivity;
 
 public class LoginActivity extends BaseActivity {
 

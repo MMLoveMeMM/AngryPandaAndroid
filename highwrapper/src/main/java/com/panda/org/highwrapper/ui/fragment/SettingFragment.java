@@ -58,12 +58,12 @@ public class SettingFragment extends BaseFragment {
         mHomePageFragment = HomePageFragment.newInstance();
         mUserInfoFragment = UserInfoFragment.newInstance();
 
-        mActivity.getSupportFragmentManager().beginTransaction()
+        /*mActivity.getSupportFragmentManager().beginTransaction()
                 .add(R.id.fragment_container, mHomePageFragment, mHomePageFragment.getClass().getName())
                 .add(R.id.fragment_container, mUserInfoFragment, mUserInfoFragment.getClass().getName())
                 .show(mHomePageFragment)
                 .hide(mUserInfoFragment)
-                .commit();
+                .commit();*/
     }
 
     void showHomePage() {

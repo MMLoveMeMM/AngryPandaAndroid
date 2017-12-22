@@ -24,7 +24,9 @@ import static com.panda.org.highwrapper.http.RetrofitClient.getWeatherAPI;
 public class WeatherAPI {
 
     public static final String URL="http://v.juhe.cn/";
-    public static final int RESPONSE_OK=200;
+    // 这里定义的是错误code,如果错误code=0,即表示反馈结果OK,
+    // 如果是反馈http code,那么就是200,不过聚合数据反馈的http code居然是字符串型的200,所以没有采用,但是一般还是建议采用http code
+    public static final int RESPONSE_OK=0;
     public static final MediaType RETROFIT_JSON = MediaType.parse("application/json; charset=utf-8");
 
     /*

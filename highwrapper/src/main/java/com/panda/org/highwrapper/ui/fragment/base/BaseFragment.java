@@ -9,15 +9,16 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.panda.org.highwrapper.http.api.WeatherAPI;
-import com.panda.org.highwrapper.ui.BaseActivity;
+import com.panda.org.highwrapper.ui.app.base.BaseActivity;
 
 /**
  * Created by rd0348 on 2017/12/21 0021.
+ * 这个基类涉及到布局设置,个人并不推荐这种做法,虽然子类都要用到布局
  */
 
 public abstract class BaseFragment extends Fragment {
 
-    protected BaseActivity mActivity;
+    public BaseActivity mActivity;
     public View mRootView;
     protected WeatherAPI api=new WeatherAPI();
 
@@ -34,6 +35,11 @@ public abstract class BaseFragment extends Fragment {
     public void onAttach(Context context) {
         super.onAttach(context);
         this.mActivity = (BaseActivity) context;
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
     }
 
     protected abstract void initView(Bundle savedInstanceState);

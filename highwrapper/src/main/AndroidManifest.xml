@@ -3,9 +3,24 @@
     package="com.panda.org.highwrapper">
 
     <application>
-        <activity android:name=".ui.BaseActivity" />
-        <activity android:name=".ui.home.HomeActivity" />
-        <activity android:name=".ui.login.LoginActivity"></activity>
+        <activity android:name=".ui.app.base.BaseActivity" />
+        <activity android:name=".ui.app.home.HomeActivity" />
+        <activity android:name=".ui.app.login.LoginActivity" />
+
+        <provider
+            android:name=".db.provider.AblumContentProvider"
+            android:authorities="com.panda.org.highwrapper.db.ablumcontentprovider"
+            android:exported="true" />
+        <provider
+            android:name=".db.provider.ImageContentProvider"
+            android:authorities="com.panda.org.highwrapper.db.imagecontentprovider"
+            android:exported="true" />
+        <provider
+            android:name=".db.provider.VideoContentProvider"
+            android:authorities="com.panda.org.highwrapper.db.videocontentprovider"
+            android:exported="true" />
+
+        <activity android:name=".db.testdb.DBActivity"></activity>
     </application>
 
 </manifest>

@@ -1,11 +1,10 @@
-package com.panda.org.highwrapper.ui.home;
+package com.panda.org.highwrapper.ui.app.home;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 
 import com.panda.org.highwrapper.R;
-import com.panda.org.highwrapper.ui.BaseActivity;
+import com.panda.org.highwrapper.ui.app.base.BaseActivity;
 import com.panda.org.highwrapper.ui.fragment.HomePageFragment;
 import com.panda.org.highwrapper.ui.fragment.SettingFragment;
 import com.panda.org.highwrapper.ui.fragment.UserInfoFragment;
@@ -37,17 +36,19 @@ public class HomeActivity extends BaseActivity {
                 .add(R.id.fragment_container, mHomePageFragment, mHomePageFragment.getClass().getName())
                 .add(R.id.fragment_container, mUserInfoFragment, mUserInfoFragment.getClass().getName())
                 .add(R.id.fragment_container, mSettingFragment, mSettingFragment.getClass().getName())
-                .show(mHomePageFragment)
-                .hide(mUserInfoFragment)
+                .show(mUserInfoFragment)
+                .hide(mHomePageFragment)
                 .hide(mSettingFragment)
                 .commit();
+
     }
 
     @Override
     public void showFragment() {
         getSupportFragmentManager().beginTransaction()
-                .show(mHomePageFragment)
-                .hide(mUserInfoFragment)
+                .show(mUserInfoFragment)
+                .hide(mHomePageFragment)
+                .hide(mSettingFragment)
                 .commit();
         //setCurrentPage(1);
     }

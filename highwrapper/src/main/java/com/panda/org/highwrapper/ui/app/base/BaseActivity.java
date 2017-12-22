@@ -1,4 +1,4 @@
-package com.panda.org.highwrapper.ui;
+package com.panda.org.highwrapper.ui.app.base;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -42,6 +42,15 @@ public abstract class BaseActivity extends FragmentActivity {
 
         initView();
         initFragment();
+
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if(!mCompositeSubscription.isUnsubscribed()){
+            mCompositeSubscription.unsubscribe();
+        }
 
     }
 
