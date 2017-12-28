@@ -16,7 +16,7 @@ import com.panda.org.highwrapper.R;
 import com.panda.org.highwrapper.bean.weather.HttpWeatherBean;
 import com.panda.org.highwrapper.databinding.FragmentMainhomeBinding;
 import com.panda.org.highwrapper.http.api.WeatherAPI;
-import com.panda.org.highwrapper.ui.BaseActivity;
+import com.panda.org.highwrapper.ui.app.base.BaseActivity;
 import com.panda.org.highwrapper.ui.fragment.home.HomeOneFragment;
 import com.panda.org.highwrapper.ui.fragment.home.HomeThreeFragment;
 import com.panda.org.highwrapper.ui.fragment.home.HomeTwoFragment;

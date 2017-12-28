@@ -1,1 +1,1 @@
-include ':app', ':mediumwrapper', ':highwrapper'
+include ':app', ':mediumwrapper', ':highwrapper', ':mapmodule'

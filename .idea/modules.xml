@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/AngryPandaAndroidStructure.iml" filepath="$PROJECT_DIR$/AngryPandaAndroidStructure.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/highwrapper/highwrapper.iml" filepath="$PROJECT_DIR$/highwrapper/highwrapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mapmodule/mapmodule.iml" filepath="$PROJECT_DIR$/mapmodule/mapmodule.iml" />
       <module fileurl="file://$PROJECT_DIR$/mediumwrapper/mediumwrapper.iml" filepath="$PROJECT_DIR$/mediumwrapper/mediumwrapper.iml" />
     </modules>
   </component>
